@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "repro"
+version = "0.1.0"
+description = "Minimal repro: poetry caret dep + OSV vulnerability alert"
+authors = ["repro"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+weasyprint = "^69.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

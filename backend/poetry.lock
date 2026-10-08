@@ -1,0 +1,7 @@
+[[package]]
+name = "weasyprint"
+version = "69.0"
+
+[metadata]
+lock-version = "2.0"
+python-versions = "^3.12"
